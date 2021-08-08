@@ -1,7 +1,6 @@
 import pandas as pd
 import datetime
 
-
 def current_date():
     """ 現在の日付を出力する関数
 
@@ -34,7 +33,7 @@ def read_csv(df_name):
 
 def to_csv_date(df, filename):
     """
-    csv を書き出す関数 　
+    
 
     ファイル名に関数実行日(例210807)を加えて保存する
 
